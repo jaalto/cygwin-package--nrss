@@ -1,0 +1,7 @@
+sdesc: "A ncurses-based RSS reader"
+ldesc: "A console based RSS reader allowing uses to read and manage RSS feeds
+with a simple to use interface. Like most graphical RSS readers it
+provides a three pane interface for ease of use in managing multiple
+feeds."
+category: Net
+requires: cygwin libexpat0 libncurses8 wget

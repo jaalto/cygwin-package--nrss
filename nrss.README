@@ -1,0 +1,76 @@
+nrss
+------------------------------------------
+
+A ncurses-based RSS reader
+
+A console based RSS reader allowing uses to read and manage RSS feeds
+with a simple to use interface. Like most graphical RSS readers it
+provides a three pane interface for ease of use in managing multiple
+feeds.
+
+Install notes:
+  See example of ~/.nrss/config in /usr/share/doc/nrss-*/examples/nrss.conf
+
+Runtime requirements:
+  cygwin
+  libexpat0
+  libncurses8
+  wget
+
+Build requirements:
+  cygwin
+  libncurses-devel
+  expat
+
+Canonical homepage:
+  http://www.codezen.org/nrss
+  http://packages.debian.org/unstable/nrss
+
+Canonical download:
+  See above
+
+Version control repository:
+  git clone http://codezen.org/src/nrss.git
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+  nick: TheMoken#irc.freenode.net
+
+Upstream contact:
+  Maintainer: Jack Miller <jack@codezen.org>, <TheMoken@gmail.com>, <jjm2n4@umr.edu>
+  Bugs: Jack Miller <TheMoken@gmail.com>
+
+License:
+  GPL-2
+
+Language:
+  C
+
+------------------------------------------
+
+Build instructions:
+  unpack nrss-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./nrss*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See content of *.tar.gz
+
+------------------------------------------
+
+Port Notes:
+- The examples/nrss.conf was manually downloaded with
+  lynx -dump http://codezen.org/conf > nrss.conf
+
+----- version 0.3.9-1 -----
+- Initial release 2008-02-26 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later
