@@ -1,6 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: nrss 0.3.9-1 -- A ncurses-based RSS reader
+Subject: Updated: nrss 0.3.9-2 -- A ncurses-based RSS reader
 
 PACKAGE DESCRIPTION
 ===================
@@ -16,7 +15,7 @@ feeds.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-None
+Cygwin: link with libexpat1 libncursesw10
 
 INSTALL OR UPGRADE NOTES
 ========================

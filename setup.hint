@@ -4,4 +4,4 @@ with a simple to use interface. Like most graphical RSS readers it
 provides a three pane interface for ease of use in managing multiple
 feeds."
 category: Net
-requires: cygwin libexpat0 libncurses8 wget
+requires: libexpat1 libncursesw10 wget

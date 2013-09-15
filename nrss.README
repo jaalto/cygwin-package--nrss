@@ -12,14 +12,12 @@ Install notes:
   See example of ~/.nrss/config in /usr/share/doc/nrss-*/examples/nrss.conf
 
 Runtime requirements:
-  cygwin
-  libexpat0
-  libncurses8
+  libexpat1
+  libncursesw10
   wget
 
 Build requirements:
-  cygwin
-  libncurses-devel
+  libncursesw-devel
   expat
 
 Canonical homepage:
@@ -61,7 +59,7 @@ Build instructions:
 ------------------------------------------
 
 Files included in the binary distribution:
-  See content of *.tar.gz
+  See Cygwin package archive
 
 ------------------------------------------
 
@@ -69,8 +67,12 @@ Port Notes:
 - The examples/nrss.conf was manually downloaded with
   lynx -dump http://codezen.org/conf > nrss.conf
 
+----- version 0.3.9-2 -----
+- Cygwin package 2013-09-15 Jari Aalto
+- Link with libexpat1 libncursesw10
+
 ----- version 0.3.9-1 -----
 - Initial release 2008-02-26 Jari Aalto
 
-Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later
+Cygwin port maintained by: user <jari.aalto@cante.net>
+Copyright (C) 2008-2013 Jari Aalto; Licensed under GPL v2 or later
