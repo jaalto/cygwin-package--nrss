@@ -67,6 +67,10 @@ Port Notes:
 - The examples/nrss.conf was manually downloaded with
   lynx -dump http://codezen.org/conf > nrss.conf
 
+----- version 0.3.9-3 -----
+- New release 2015-02-11 Jari Aalto
+- Packaging touch up
+
 ----- version 0.3.9-2 -----
 - Cygwin package 2013-09-15 Jari Aalto
 - Link with libexpat1 libncursesw10
@@ -74,5 +78,5 @@ Port Notes:
 ----- version 0.3.9-1 -----
 - Initial release 2008-02-26 Jari Aalto
 
-Cygwin port maintained by: user <jari.aalto@cante.net>
-Copyright (C) 2008-2013 Jari Aalto; Licensed under GPL v2 or later
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008-2015 Jari Aalto; Licensed under GPL v2 or later
