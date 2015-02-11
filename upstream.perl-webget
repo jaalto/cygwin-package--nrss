@@ -1,2 +1,4 @@
+# 2015-02-10 NRSS has been deprecated
+# Use http://codezen.org/canto
 tag1: nrss
   http://codezen.org/nrss pregexp:tar.gz file:nrss-0.4.0_beta1.tar.gz new: x:
